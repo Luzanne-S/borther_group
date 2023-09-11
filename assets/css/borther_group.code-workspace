@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "borther_group",
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "borther_group",
+    "liveServer.settings.port": 5501
+  }
+}

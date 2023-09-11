@@ -592,8 +592,10 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cta-bg.jpg") fixed center center;
+    url("../img/HCI_HPBanner_2023_1-1-1024x346.jpg") fixed center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
   padding: 60px 0;
 }
 
@@ -630,6 +632,7 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+
 .counts .content {
   padding: 30px 0;
 }
@@ -645,8 +648,8 @@ section {
   width: 80%;
 }
 
-.counts .content .count-box {
-  padding: 20px 0;
+.counts .content {
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -662,7 +665,6 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-
   font-size: 14px;
   color: #3b3b3b;
 }
@@ -704,14 +706,20 @@ section {
     max-width: 100%;
   }
 }
-
+@media (min-width: 1200px) and (max-width: 1293px) {
+  .counts .image {
+    background-size: contain;
+    max-width: 100%;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/GettyImages-1388687270.webp") no-repeat;
   background-position: center center;
+  height: 50vh;
   background-size: cover;
   position: relative;
 }
