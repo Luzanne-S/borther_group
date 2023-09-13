@@ -528,32 +528,49 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.services .icon-box1 {
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 80px 20px;
-  width: 320px;
+
   height: auto;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
+
 .service-p {
   width: 60%;
   margin-bottom: 5%;
 }
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #176b87;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
+.services .row #accordionExample {
+  width: 60%;
+  margin: auto;
 }
-
+#accordionExample button {
+  font-weight: bold;
+  font-size: 22px;
+  color: #053b50;
+}
+@media (max-width: 900px) {
+  #accordionExample button {
+    font-size: 14px;
+  }
+  .services i {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .services .row #accordionExample {
+    width: 100%;
+  }
+}
+.services i {
+  font-size: 60px;
+  color: #176b87;
+}
+.services ul {
+  text-align: left;
+}
 .services .icon-box .icon i {
   color: #eeeeee;
   font-size: 28px;
