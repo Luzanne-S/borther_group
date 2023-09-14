@@ -532,7 +532,6 @@ section {
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 80px 20px;
-
   height: auto;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -556,7 +555,7 @@ section {
     font-size: 14px;
   }
   .services i {
-    font-size: 10px;
+    font-size: 5px;
   }
 }
 @media (max-width: 1000px) {
@@ -565,7 +564,7 @@ section {
   }
 }
 .services i {
-  font-size: 60px;
+  font-size: 40px;
   color: #176b87;
 }
 .services ul {
