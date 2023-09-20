@@ -537,6 +537,36 @@ section {
   background: #fff;
 }
 
+.service-car-ul {
+  padding-top: 10%;
+  list-style: none;
+}
+.service-car-ul .ri-check-double-line {
+  font-size: 20px;
+}
+#services h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #176b87;
+  width: 60%;
+}
+.services_2 em {
+  font-size: 20px;
+  text-align: center;
+  color: #176b87;
+  margin: 5% auto 5%;
+}
+p.service-car-p {
+  margin-bottom: 0;
+  width: 60%;
+}
+.service-car {
+  width: 100%;
+}
+.car-p {
+  margin-bottom: 0;
+  width: 80%;
+}
 .service-p {
   width: 60%;
   margin-bottom: 5%;
@@ -556,6 +586,15 @@ section {
   }
   .services i {
     font-size: 5px;
+  }
+  #services-row {
+    flex-direction: column;
+    margin: auto;
+  }
+  .service-p,
+  p.service-car-p,
+  #services h3 {
+    width: 100%;
   }
 }
 @media (max-width: 1000px) {
@@ -661,7 +700,7 @@ section {
 
 .counts .content p {
   margin-bottom: 0;
-  width: 80%;
+  width: 60%;
 }
 
 .counts .content {
@@ -700,10 +739,7 @@ section {
 }
 
 .counts .image {
-  background: url("../img/Group\ Company\ mbrothers064544.png") center center
-    no-repeat;
-  background-size: cover;
-  min-height: 400px;
+  margin: auto;
 }
 
 @media (max-width: 991px) {
@@ -713,6 +749,10 @@ section {
 
   .counts .image img {
     max-width: 80%;
+  }
+  .counts .content p,
+  .counts .content h3 {
+    width: 100%;
   }
 }
 
@@ -999,7 +1039,7 @@ section {
 }
 
 .footer-info img {
-  width: auto;
+  width: 40%;
   height: auto;
 }
 #footer .footer-top {
