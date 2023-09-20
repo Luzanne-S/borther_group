@@ -560,6 +560,10 @@ p.service-car-p {
   margin-bottom: 0;
   width: 60%;
 }
+#services-row {
+  width: 80%;
+  margin: auto;
+}
 .service-car {
   width: 100%;
 }
@@ -589,11 +593,17 @@ p.service-car-p {
   }
   #services-row {
     flex-direction: column;
-    margin: auto;
+    width: 100%;
   }
   .service-p,
   p.service-car-p,
   #services h3 {
+    width: 100%;
+  }
+  #services h3 {
+    margin: 5% 0 5%;
+  }
+  #services-ul {
     width: 100%;
   }
 }
