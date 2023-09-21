@@ -541,8 +541,15 @@ section {
   padding-top: 10%;
   list-style: none;
 }
-.service-car-ul .ri-check-double-line {
+.service-car-ul .ri-check-double-line,
+.cable-tick .ri-check-double-line {
   font-size: 20px;
+}
+.cable-tick {
+  list-style: none;
+}
+#cable-row {
+  margin: 10% auto 6%;
 }
 #services h3 {
   font-weight: 700;
@@ -751,7 +758,9 @@ p.service-car-p {
 .counts .image {
   margin: auto;
 }
-
+.count-img {
+  width: 90%;
+}
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
